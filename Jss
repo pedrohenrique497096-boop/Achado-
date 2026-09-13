@@ -1,3 +1,6 @@
+// Cole este código no Cloudflare Workers (dash.cloudflare.com → Workers & Pages → Create → cole aqui → Deploy).
+// Função: recebe ?url=SEU_LINK, segue o redirecionamento (mesmo links curtos de afiliado)
+// e devolve título, preço e foto do produto, sem travar por CORS no navegador.
 
 export default {
   async fetch(request) {
